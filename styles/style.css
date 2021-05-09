@@ -1,0 +1,70 @@
+:root {
+    --header-height: ;
+    --body-height: ;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 6rem calc(100% - 6rem);
+    grid-template-columns: 6rem calc(100% - 6rem);
+
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.199);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header div {
+    width: 30rem;
+    height: 10rem;
+    
+}
+
+
+header div a img {
+    width: 12rem;
+    height: 5rem;
+}
+
+.final {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div img {
+    width: 6rem;
+    height: 5rem;
+
+}
+
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position:sticky;
+
+}
+
+main div {
+
+    height: 70rem;
+    border: 0.1rem solid green;
+}
